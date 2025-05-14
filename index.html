@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="main w-full">
+    <nav class="w-full fixed top-0 left-0 px-10 py-3 flex justify-between items-center">
+      <img class="w-[160px] mix-blend-screen filter contrast-125 saturate-150" src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="">
+      <div class="flex gap-5 items-center">
+        <a href="#" class="text-white hover:text-cyan-400 transition-colors">Home</a>
+        <a href="#" class="text-white hover:text-cyan-400 transition-colors">Games</a>
+        <a href="#" class="text-white hover:text-cyan-400 transition-colors">News</a>
+        <a href="#" class="text-white hover:text-cyan-400 transition-colors">Community</a>
+        <a href="#" class="text-white hover:text-cyan-400 transition-colors">Store</a>
+        <a href="#" class="text-white hover:text-cyan-400 transition-colors">Support</a>
+      </div>
+    </nav>
+    <div class="w-full h-screen overflow-hidden" >
+      <img src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="" class="absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter contrast-125 saturate-150">
+      <div class="w-[32rem] h-[32rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1] rounded-full bg-blue-600 blur-3xl"></div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <!-- <div class="w-full h-screen relative bg-white">
+      <div class="w-full h-96  absolute top-0 left-0 -translate-y-1/2 bg-gradient-to-b from-black to-white"></div>
+    </div> -->
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
